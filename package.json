@@ -1,0 +1,38 @@
+{
+  "name": "expense-tracker-app2",
+  "version": "1.0.0",
+  "description": "Trying out what has been learned - 1st Try",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "expense-tracker-app2"
+  },
+  "author": "Emma and Victor Ungureanu",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-jsx-a11y": "^6.10.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.0",
+    "express": "^4.21.0",
+    "morgan": "^1.10.0",
+    "prettier": "^3.3.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "eslint": "^8.57.1",
+    "globals": "^15.9.0",
+    "nodemon": "^3.1.7",
+    "typescript-eslint": "^8.7.0"
+  },
+  "engines": {
+    "node": ">=10.0.0.0"
+  }
+}
