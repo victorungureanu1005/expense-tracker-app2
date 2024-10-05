@@ -6,6 +6,7 @@ dotenv.config({ path: "./config.env" });
 //DATABASE
 const mongoose = require("mongoose");
 let URI = process.env.DATABASE_CONNECTIONSTRING;
+console.log(process.env);
 URI = URI.replace("<DATABASE_USERNAME>", process.env.DATABASE_USERNAME)
   .replace("<DATABASE_PASSWORD>", process.env.DATABASE_PASSWORD)
   .replace("<DATABASE_NAME>", process.env.DATABASE_NAME);

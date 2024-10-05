@@ -1,5 +1,6 @@
 const express = require("express");
 const morgan = require("morgan");
+const expenseRouter = require('./routes/expenseRoutes');
 
 //SETTING UP APP
 const app = express();
@@ -22,15 +23,8 @@ app.get("/", (req, res) => {
   res.status(200).send("Hello from the server side 🖥️");
 });
 
-
 //ROUTING
-
-
-
-
-
-
+app.use("/api/v1/expenses", expenseRouter);
 
 //EXPORT APP
 module.exports = app;
-
